@@ -24,7 +24,7 @@ input {
     padding: 10px;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15pt;
+    font-size: 100%;
     border: 1px solid rgba(0, 0, 0, 0.188);
     text-transform: uppercase;
     text-align: center;
@@ -57,5 +57,19 @@ button:hover {
     background-color: rgba(255, 255, 255, 0.812);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: 0.5s;
+}
+@media(max-width: 574px) {
+    div#container{
+        width: 70%;
+    }
+    div#btn{
+        width: 30%;
+
+    }
+    button{
+        margin-right: 5px;
+    }
+  
+
 }
 
