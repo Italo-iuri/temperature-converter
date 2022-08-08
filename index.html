@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Celsius to Farenheit</title>
+</head>
+<body>
+    <!-- Escreva um script que pergunta ao usuário se ele deseja converter uma temperatura de grau Celsius para Farenheit ou vice-versa. Para cada opção, crie uma função. Crie uma terceira, que é um menu para o usuário escolher a opção desejada, onde esse menu chama a função de conversão correta -->
+    <h1>CONVERSOR DE TEMPERATURA</h1>
+    <div id="container"><!-- Celsius para farenheit -->
+        
+        <input type="text" name="f" id="fahrenheit" placeholder="Fahrenheit" value=""> 
+        <input type="text" name="c" id="celsius" placeholder="Celsius" value="">
+
+    </div>
+
+    <div id="btn">
+        <button id="convert">Convert!</button> <!--botão que chama a função tempConvert().onclick-->
+        <button id="clear">Reset</button> <!--botão que chama a função clear().onclick-->
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

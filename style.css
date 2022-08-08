@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(123, 238, 238);
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div#container {
+    display: grid;
+    border-radius: 20px;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.493);
+    box-shadow: rgba(0, 0, 0, 0.153) 0px 5px 15px;
+
+    margin: auto;
+    width: 30%;
+    padding: 20px;  
+}
+input {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    border: 1px solid rgba(0, 0, 0, 0.188);
+    text-transform: uppercase;
+    text-align: center;
+
+}
+div#btn {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 500px;
+    padding: 20px;
+    margin-top: 1em;
+}
+button {
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.188);
+    background-color: rgba(255, 255, 255, 0.734);
+}
+button:hover {
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.485);
+    background-color: rgba(255, 255, 255, 0.812);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.5s;
+}
+
